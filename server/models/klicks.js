@@ -23,7 +23,7 @@ var klicksSchema = new mongoose.Schema({
     ctrlKey: { type: Boolean, default: false }, // applies only for keypress actions
     metaKey: { type: Boolean, default: false }, // applies only for keypress actions
     shiftKey: { type: Boolean, default: false }, // applies only for keypress actions
-    src: String  // corresponds to the url where the recording happens
+    url: String  // corresponds to the url where the recording happens
   }]
 });
 
