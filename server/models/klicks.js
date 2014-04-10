@@ -1,6 +1,7 @@
 var mongoose = require('mongoose');
 
 var klicksSchema = new mongoose.Schema({
+  url: String,
   linkUrl: { type: String, default: '' },  // corresponds to the url which a user will click on and redirect to the recording
   width: Number,  // width of the window where the recording happens
   height: Number,  // height of the window where the recording happens
