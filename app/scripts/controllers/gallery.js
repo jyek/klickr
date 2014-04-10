@@ -16,6 +16,10 @@ angular.module('klickrApp')
       }
     };
 
+    // TODO: Increment views counter
+
+    // TODO: Increment hype counter
+
     // Pulls klicks from server
     $scope.refresh = function(){
       $scope.spinner = true;
