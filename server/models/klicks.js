@@ -1,7 +1,6 @@
 var mongoose = require('mongoose');
 
 var klicksSchema = new mongoose.Schema({
-  url: String,  // corresponds to the url where the recording happens
   linkUrl: { type: String, default: '' },  // corresponds to the url which a user will click on and redirect to the recording
   width: Number,  // width of the window where the recording happens
   height: Number,  // height of the window where the recording happens
@@ -22,7 +21,8 @@ var klicksSchema = new mongoose.Schema({
     altKey: { type: Boolean, default: false }, // applies only for keypress actions
     ctrlKey: { type: Boolean, default: false }, // applies only for keypress actions
     metaKey: { type: Boolean, default: false }, // applies only for keypress actions
-    shiftKey: { type: Boolean, default: false } // applies only for keypress actions
+    shiftKey: { type: Boolean, default: false }, // applies only for keypress actions
+    url: String  // corresponds to the url where the recording happens
   }]
 });
 
