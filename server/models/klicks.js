@@ -4,6 +4,7 @@ var klicksSchema = new mongoose.Schema({
   linkUrl: { type: String, default: '' },  // corresponds to the url which a user will click on and redirect to the recording
   width: Number,  // width of the window where the recording happens
   height: Number,  // height of the window where the recording happens
+  url: { type: String, default: '' },
   description: { type: String, default: '' },
   createdAt: { type: Date, default: Date.now },
   hype: { type: Number, default: 0 },
