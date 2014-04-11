@@ -19,6 +19,6 @@ angular.module('klickrApp', ['ngRoute'])
 
 /* Defines defaults for App */
 .constant('DEFAULTS', {
-  // HOST: 'http://jy1.cloudapp.net:3000'
-  HOST: 'http://localhost:4568'
+  HOST: 'http://www.klickr.io',
+  LOCALHOST: 'http://localhost:4568'
 });
