@@ -19,7 +19,7 @@
         <tr class="klick" ng-repeat="klick in klicks | filter:kFilter | orderBy:kOrder:false" ng-class-odd="'odd'">
           <td class="td-desc"><a href="{{ klick.linkUrl }}" target="_blank"> {{ klick.description }} </a></td>
           <td class="td-site"> {{ klick.url }} </td>
-          <td class="td-date">{{ klick.createdAt | date:'M/d/yyyy' }}</td>
+          <td class="td-date">{{ klick.createdAt | datetime }}</td>
           <td class="td-hype txt-center">{{ klick.hype }} <i class="fa fa-heart"></i></td>
           <td class="td-views txt-center">{{ klick.views }}</td>
         </tr>
