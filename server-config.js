@@ -1,3 +1,5 @@
+'use strict';
+
 var express = require('express');
 var cors = require('cors'); // module for handling Cors headers
 var handler = require('./lib/request-handler');
@@ -12,9 +14,11 @@ app.configure(function() {
 
 app.get('/', handler.renderIndex);
 
-// Note to team: we may need to add routes to handle non-existent routes
-app.get('/klicks/:id', handler.handleGetKlicks);
-app.get('/klicks', handler.handleGetAllKlicks);
-app.post('/klicks', handler.handlePostKlicks);
+app.get('/klicks/:id', handler.getKlick);
+app.get('/klicks', handler.getAllKlicks);
+app.post('/klicks', handler.createKlick);
+
+// app.get(/\/?url=(.+)/, handler.loadKlick);
+// app.get('/*', handler.default);
 
 module.exports = app;
