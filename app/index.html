@@ -22,7 +22,7 @@
   <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic" rel="stylesheet" type="text/css" />
   <!-- endbuild -->
 </head>
-<body ng-app="klickrApp">
+<body ng-app="klickrApp" id="top">
   <div class="top-nav-wrap" ng-controller="NavCtrl">
     <div class="wrap">
       <div ng-class="formatHeader()">
@@ -55,13 +55,14 @@
   <div class="wrap">
     <div class="footer-grids">
       <div class="footer-left">
+        <!-- Empty -->
       </div>
       <div class="footer-right">
         <p>
           &copy; 2014 Klickr. Made by: <a href="http://www.penguinhustle.com/blog" target="_blank">Justin</a>, <a href="https://github.com/lramsey" target="_blank">Luke</a>, <a href="https://github.com/stephandacosta" target="_blank">Stephan</a>, <a href="https://medium.com/@fay_jai" target="_blank">Willson</a></a>
         </p>
-        <!--move-top-path-->
-        <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+        <!-- Scroll to top -->
+        <div scroll-to-top class="scroll-to-top"></div>
       </div>
       <div class="clear"> </div>
     </div>
@@ -98,6 +99,7 @@
 
   <!-- build:js({.tmp,app}) scripts/scripts.js -->
   <script src="scripts/app.js"></script>
+  <script src="scripts/directives/scroll-to-top.js"></script>
   <script src="scripts/services/klick_service.js"></script>
   <script src="scripts/filters/filters.js"></script>
   <script src="scripts/controllers/gallery.js"></script>

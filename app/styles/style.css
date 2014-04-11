@@ -423,7 +423,7 @@ body{
 /* Scroll To Top
 /* --------------------------------------------------------------------------------- */
 
-#toTop {
+.scroll-to-top {
 	display: none;
 	text-decoration: none;
 	position: fixed;
@@ -436,21 +436,8 @@ body{
 	text-indent: 100%;
 	background: url(../images/move-top.png) no-repeat 0px 0px;
 	bottom: 10px;
-}
-
-#toTopHover {
-	width: 50px;
-	height: 49px;
-	display: block;
-	overflow: hidden;
-	float: right;
-	opacity: 0;
-	-moz-opacity: 0;
-	filter: alpha(opacity=0);
-}
-
-#toTop:active, #toTop:focus {
-	outline: none;
+  display: block;
+  cursor: pointer;
 }
 
 /* --------------------------------------------------------------------------------- */
