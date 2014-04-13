@@ -684,6 +684,7 @@ td:first-child, th:first-child {
 }
 
 .td-hype {
+  cursor: pointer;
 	width: 65px;
 }
 
