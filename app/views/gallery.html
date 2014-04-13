@@ -1,31 +1,29 @@
 <!--Start Gallery-->
-<div class="content">
-  <div class="container">
-    <div class="content-head">
-      <h3>Gallery</h3>
-      <p>Browse our collection of web tutorials</p>
-    </div>
-    <div class="content-body">
-      <div class="search">Filter by: <input type="text" ng-model="kFilter"></input></div>
-      <div ng-show="spinner" class="txt-center"><i class="fa fa-3x fa-compass fa-spin" style="color: #515151"></i></div>
-      <table ng-hide="spinner">
-        <tr>
-          <th>Description<i ng-click="sort('description')" class="sort fa fa-sort"></i></th>
-          <th>Site<i ng-click="sort('url')" class="sort fa fa-sort"></i></th>
-          <th>Date<i ng-click="sort('createdAt')" class="sort fa fa-sort"></i></th>
-          <th>Hype<i ng-click="sort('hype')" class="sort fa fa-sort"></i></th>
-          <th>Views<i ng-click="sort('views')" class="sort fa fa-sort"></i></th>
-        </tr>
-        <tr class="klick" ng-repeat="klick in klicks | filter:kFilter | orderBy:kOrder:false" ng-class-odd="'odd'">
-          <td class="td-desc"><a href="{{ klick.linkUrl }}" target="_blank"> {{ klick.description }} </a></td>
-          <td class="td-site"> {{ klick.url }} </td>
-          <td class="td-date">{{ klick.createdAt | datetime }}</td>
-          <td class="td-hype txt-center">{{ klick.hype }} <i class="fa fa-heart"></i></td>
-          <td class="td-views txt-center">{{ klick.views }}</td>
-        </tr>
-      </table>
-      <div class="clear"></div>
-    </div>
+<div class="content container">
+  <div class="content-head">
+    <h3>Gallery</h3>
+    <p>Browse our collection of web tutorials</p>
+  </div>
+  <div class="content-body">
+    <div class="search">Filter by: <input type="text" ng-model="kFilter"></input></div>
+    <div ng-show="spinner" class="txt-center"><i class="fa fa-3x fa-compass fa-spin" style="color: #515151"></i></div>
+    <table ng-hide="spinner">
+      <tr>
+        <th>Description<i ng-click="sort('description')" class="sort fa fa-sort"></i></th>
+        <th>Site<i ng-click="sort('url')" class="sort fa fa-sort"></i></th>
+        <th>Date<i ng-click="sort('createdAt')" class="sort fa fa-sort"></i></th>
+        <th>Hype<i ng-click="sort('hype')" class="sort fa fa-sort"></i></th>
+        <th>Views<i ng-click="sort('views')" class="sort fa fa-sort"></i></th>
+      </tr>
+      <tr class="klick" ng-repeat="klick in klicks | filter:kFilter | orderBy:kOrder:false" ng-class-odd="'odd'">
+        <td class="td-desc"><a ng-click="addViewCount()" href="{{ klick.linkUrl }}" target="_blank"> {{ klick.description }} </a></td>
+        <td class="td-site"> {{ klick.url }} </td>
+        <td class="td-date">{{ klick.createdAt | datetime }}</td>
+        <td class="td-hype txt-center" ng-click="addHype(klick)">{{ klick.hype }} <i class="fa fa-heart"></i></td>
+        <td class="td-views txt-center">{{ klick.views }}</td>
+      </tr>
+    </table>
+    <div class="clear"></div>
   </div>
 </div>
 <!--End Gallery-->
