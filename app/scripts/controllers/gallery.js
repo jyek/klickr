@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('klickrApp')
-  .controller('GalleryCtrl', function ($scope, KlickService) {
+  .controller('GalleryCtrl', function ($scope, $routeParams, KlickService) {
 
     // Initialize params
     $scope.spinner = false;
@@ -30,7 +30,6 @@ angular.module('klickrApp')
     $scope.refresh = function(){
       $scope.spinner = true;
       return KlickService.getKlicks().then(function(klicks){
-        console.log(klicks);
         $scope.klicks = klicks;
         $scope.spinner = false;
       });
