@@ -17,7 +17,10 @@ var klicksSchema = new mongoose.Schema({
     clientY: Number,
     timestamp: Date,
     url: { type: String, default: '' }, // url that tick took place on
-    target: { type: String, default: '' }, // need a default value to be blank
+    target: { // target altered for purpose of making DOM selection of target attainable
+      tagName: { type: String, default: '' },
+      index: { type: Number, default: -1 }
+    },
     charCode: { type: Number, default: -1 }, // applies only for keypress actions
     altKey: { type: Boolean, default: false }, // applies only for keypress actions
     ctrlKey: { type: Boolean, default: false }, // applies only for keypress actions
