@@ -26,6 +26,7 @@ var klicksSchema = new mongoose.Schema({
     ctrlKey: { type: Boolean, default: false }, // applies only for keypress actions
     metaKey: { type: Boolean, default: false }, // applies only for keypress actions
     shiftKey: { type: Boolean, default: false }, // applies only for keypress actions
+    annotation: { type: String, default: '' } // applies for annotation
   }]
 });
 
