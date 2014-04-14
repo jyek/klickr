@@ -9,6 +9,7 @@ var klicksSchema = new mongoose.Schema({
   createdAt: { type: Date, default: Date.now },
   hype: { type: Number, default: 0 },
   views: { type: Number, default: 0 },
+  duration: { type: Number, default: 0},
   ticks: [{
     action: String,
     pageX: Number,  // x coordinate relative to the entire page
