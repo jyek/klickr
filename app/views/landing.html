@@ -24,20 +24,20 @@
 <!-- End Ribbon -->
 
 <!-- Start Features -->
-<div class="container">
-  <div class="features" id="services">
+<div class="features" ng-controller="FeatureCtrl" scroll-position="scroll">
+  <div class="container" >
     <div class="col-md-4 feature">
-      <a href="#"><img src="/images/top-grid-pic1.png" alt="" /></a>
+      <a ng-class="{pullUp: scroll > 50}" href="#"><img src="/images/top-grid-pic1.png" alt="" /></a>
       <a href="#"><span>Make</span></a>
       <p>Make tutorials that play natively on your browser.</p>
     </div>
     <div class="col-md-4 feature">
-      <a href="#"><img src="/images/top-grid-pic2.png" alt="" /></a>
+      <a ng-class="{pullUp: scroll > 50}" href="#"><img src="/images/top-grid-pic2.png" alt="" /></a>
       <a href="#"><span>Share</span></a>
       <p>Share them with your friends and family. Teach your mum how to use Gmail.</p>
     </div>
     <div class="col-md-4 feature">
-      <a href="#"><img src="/images/top-grid-pic4.png" alt="" /></a>
+      <a ng-class="{pullUp: scroll > 50}" href="#"><img src="/images/top-grid-pic4.png" alt="" /></a>
       <a href="#"><span>Learn</span></a>
       <p>Watch our tutorials, learn visually and never have to pour through a long list of instructions again.</p>
     </div>
@@ -47,12 +47,12 @@
 <!-- End Features -->
 
 <!-- Start Blog -->
-<div class="blog">
+<div class="blog" ng-controller="BlogCtrl" scroll-position="scroll">
   <div class="container">
     <div class="blog-grids">
       <div class="blog-grid blog-grid1">
         <div class="col-md-4 blog-grid-left" onclick="location.href='#';">
-          <span></span>
+          <span ng-class="{pullUp: scroll > 600}"></span>
         </div>
         <div class="col-md-8 blog-grid-right">
           <h3><a href="#">Your First Klick</a></h3>
@@ -69,7 +69,7 @@
           <a class="blogbtnb popup-with-zoom-anim" href="#/gallery">Gallery</a>
         </div>
         <div class="blog-grid2-right" onclick="location.href='#';">
-          <span> </span>
+          <span ng-class="{pullUp: scroll > 800}"></span>
         </div>
         <div class="clear"> </div>
       </div>
