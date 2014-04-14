@@ -20,4 +20,10 @@ angular.module('klickrApp')
 				return moment(date).format('DD/MM/YY');
 			}
 		};
+	})
+
+	.filter('duration', function(){
+		return function(ms){
+			return moment.duration(ms).humanize();
+		};
 	});

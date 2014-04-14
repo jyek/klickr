@@ -731,6 +731,10 @@ td:first-child, th:first-child {
 	width: 100px;
 }
 
+.td-duration {
+  width: 150px;
+}
+
 .td-hype {
   cursor: pointer;
 	width: 65px;
