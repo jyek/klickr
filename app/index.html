@@ -22,7 +22,7 @@
   <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic" rel="stylesheet" type="text/css" />
   <!-- endbuild -->
 </head>
-<body ng-app="klickrApp" id="top">
+<body ng-app="klickrApp" id="top" class="preload">
   <div class="top-nav-wrap" ng-controller="NavCtrl">
     <div class="wrap">
       <div ng-class="formatHeader()">
@@ -33,7 +33,7 @@
           <ul>
             <li ng-class="{active:isActive('/')}"><a href="#">Home</a></li>
             <li ng-class="{active:isActive('/gallery')}"><a href="#gallery">Gallery</a></li>
-            <li><a href="downloads/klickr-chrome.crx">Download</a></li>
+            <li><a ng-click="toExtension()" href="downloads/klickr-chrome.crx">Download</a></li>
             <div class="clear"></div>
           </ul>
         </div>
