@@ -15,10 +15,4 @@ angular.module('klickrApp', ['ngRoute'])
     .otherwise({
       redirectTo: '/'
     });
-})
-
-/* Defines defaults for App */
-.constant('DEFAULTS', {
-  HOST: 'http://www.klickr.io',
-  LOCALHOST: 'http://localhost:4568'
 });
