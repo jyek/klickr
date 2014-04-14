@@ -739,3 +739,113 @@ td:first-child, th:first-child {
 .td-views {
 	width: 65px;
 }
+
+/* --------------------------------------------------------------------------------- */
+/* 301
+/* --------------------------------------------------------------------------------- */
+
+.extension-bg {
+  background: url(../images/header-bg.jpg);
+  padding-top: 50px;
+}
+
+.logo-large {
+  text-align: center;
+}
+
+.logo-large span{
+  height: 240px;
+  width: 240px;
+  display: inline-block;
+  background: url(../images/logo-icon-large.png) no-repeat 0px 0px;
+  vertical-align: text-middle;
+}
+
+.logo-large a{
+  font-family: 'trump_town_proregular';
+  color: #3A494C;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.extension-container {
+  padding: 2em 3.5em 3.5em 3.5em;
+  background-color: white;
+  max-width: 500px;
+  _width: 500px;
+  margin: 0 auto;
+  border-radius: 40px;
+}
+
+.extension-bg h3 {
+  margin: 0.9em 0 0.9em 0;
+  color: #3A494C;
+  font-size: 2em;
+}
+
+.extension-bg p {
+  color: #3A494C;
+  font-size: 1em;
+  margin: 0.5em 0 0.5em 0;
+}
+
+.extension-bg li {
+  color: #3A494C;
+  font-size: 1em;
+  list-style: disc outside none;
+  margin: 0.4em 1em;
+}
+
+.extension-bg li > a {
+  color: #3A494C;
+  border-bottom: 1px #3A494C dotted;
+}
+
+.extension-bg li > a:hover {
+  color: #999;
+}
+
+/* --------------------------------------------------------------------------------- */
+/* Pulse
+/* --------------------------------------------------------------------------------- */
+
+.pulse{
+  animation-name: pulse;
+  -webkit-animation-name: pulse;
+
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0.7;
+  }
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(0.95);
+    opacity: 0.7;
+  }
+  50% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(0.95);
+    opacity: 0.7;
+  }
+}
