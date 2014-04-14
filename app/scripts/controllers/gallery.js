@@ -16,14 +16,11 @@ angular.module('klickrApp')
       }
     };
 
-    // TODO: Increment views counter
-    $scope.addViewCount = function(klick){
-      console.log('GalleryCtrl: Add view count', klick);
-    };
-
-    // TODO: Increment hype counter
+    // Increment hype counter
     $scope.addHype = function(klick){
       console.log('GalleryCtrl: Add hype', klick);
+      klick.hype++;
+      KlickService.updateKlick(klick);
     };
 
     // Pulls klicks from server
