@@ -13,7 +13,7 @@ angular.module('klickrApp', ['ngRoute'])
       controller: 'GalleryCtrl'
     })
     .otherwise({
-      // redirectTo: '/'
+      redirectTo: '/'
     });
 })
 
