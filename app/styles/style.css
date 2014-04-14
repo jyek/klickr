@@ -52,6 +52,14 @@ body{
 	font-size:100%;
 }
 
+/*
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}*/
+
 /* --------------------------------------------------------------------------------- */
 /* Nav
 /* --------------------------------------------------------------------------------- */
@@ -62,9 +70,19 @@ body{
 
 .top-header {
 	padding: 3em 0;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .top-header-small {
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  -webkit-transition: 1s;
+  transition: 1s;
 	padding: 0.8em 0;
 }
 
@@ -451,7 +469,37 @@ body{
   overflow: hidden;
   top: 0;
   z-index: 9999;
+
+  -webkit-animation: fadein 1s; /* Safari and Chrome */
+     -moz-animation: fadein 1s; /* Firefox */
+      -ms-animation: fadein 1s; /* Internet Explorer */
+       -o-animation: fadein 1s; /* Opera */
+          animation: fadein 1s;
 }
+
+/* Firefox */
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}​
+
+/* Opera */
+@-o-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}​
 
 .github-fork-ribbon-wrapper.fixed {
   position: fixed;

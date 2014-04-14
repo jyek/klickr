@@ -7,6 +7,17 @@ angular.module('klickrApp')
       return route === $location.path();
     };
 
+    $scope.toExtension = function(){
+      // please note, that IE11 now returns true for window.chrome
+      var isChromium = window.chrome,
+          vendorName = window.navigator.vendor;
+      if(isChromium !== null && vendorName === 'Google Inc.') {
+        console.log('Chrome!');
+      } else {
+        console.log('Not Chrome!');
+      }
+    };
+
     $scope.formatHeader = function() {
       var formatHeader = {
         '/': 'top-header',
