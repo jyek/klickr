@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('klickrApp')
-  .service('KlickService', function KlickService($http) {
+  .service('KlickService', function ($http) {
 
     /* Get Klicks */
     this.getKlicks = function (){
