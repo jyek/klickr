@@ -11,7 +11,7 @@
 
 ## <a name="about"/> What is Klickr.io
 
-Following the age-old mantra of "a picture speaks a thousand words," Klickr.io makes it super easy to create shareable tutorial-style snippets of web content and share them with others. In doing so, we aim to address the problem of how difficult it to put together instructions to teach someone how to do even the simplest of tasks.
+Following the age-old mantra of "a picture speaks a thousand words," Klickr.io makes it super easy to create shareable tutorial-style snippets of web content and share them with others. We address the problem of how difficult it to put together instructions to teach someone how to do even the simplest of tasks.
 
 Using our Chrome extension, you can record and annotate a web snippet, or Klick, on your browser which you can share with others. These snippets are not videos - they play back natively on the Chrome browser.
 
