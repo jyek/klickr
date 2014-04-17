@@ -41,7 +41,9 @@ Note that Klickr is in Beta. It has bugs and lacks important features. That said
 
 ## <a name="techstack"/> Tech Stack
 
-**Chrome extension:** Manifest2, Angular
+Klickr is comprised of a Chrome extension and a web application.
+
+**Chrome extension:** Manifest 2, Angular
 
 **Web application:** Backend: Node, Express, MongoDB and Mongoose; Frontend: Angular.js, CSS3
 
