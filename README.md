@@ -1,4 +1,4 @@
-# Klickr.io
+# KLICKR.IO: The New Way to Make and Share Web Tutorials
 
 ## Contents  
 [About](#about)  
