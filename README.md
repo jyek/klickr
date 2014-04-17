@@ -1,4 +1,4 @@
-# KLICKR.IO
+# Klickr.io
 
 ## Contents  
 [About](#about)  
