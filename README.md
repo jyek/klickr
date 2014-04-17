@@ -1,17 +1,25 @@
 # Klickr.io
 
-Following the age-old mantra of "a picture speaks a thousand words," Klickr.io makes it easy to create shareable tutorial-style snippets of web content and share them with others. We want people to learn without having to pour through lists of instructions. These snippets are not videos - they play back natively on your Chrome browser.
-
-Klickr is currently in Beta. It has bugs and lacks important features. That said, even with its current flaws, we believe it brings enough value to make it useful, fun, and share-worthy.
-
-Check us out at [http://klickr.io](http://klickr.io).
-
 ## Table of Contents  
+[What is Klickr.io?](#about)  
+[Is Klickr.io live?](#live)  
 [Team](#team)  
 [Screenshots](#screenshots)  
 [Tech Stack](#techstack)  
 [Technical Challenges](#challenges)  
 [Roadmap for Codebase](#roadmap)  
+
+## <a name="about"/> What is Klickr.io?
+
+Following the age-old mantra of "a picture speaks a thousand words," Klickr.io makes it super easy to create shareable tutorial-style snippets of web content and share them with others. In doing so, we aim to address the problem of how difficult it to put together instructions to teach someone how to do even the simplest of tasks.
+
+Using our Chrome extension, you can record and annotate a web snippet, or Klick, on your browser which you can share with others. These snippets are not videos - they play back natively on the Chrome browser.
+
+## <a name="live"/> Is Klickr.io Live?
+
+In short, yes. Visit us at [http://klickr.io](http://klickr.io).
+
+Note that Klickr is in Beta. It has bugs and lacks important features. That said, even with its current flaws, we believe it brings enough value to make it useful, fun and share-worthy. We'd also love to hear what you think.
 
 ## <a name="team"/> Team
 
@@ -21,7 +29,7 @@ Check us out at [http://klickr.io](http://klickr.io).
 * [Stephan Dacosta](https://github.com/stephandacosta): Chrome extension user interface and code refactoring
 
 ## <a name="screenshots"/> Screenshots
-## Home page
+
 ![Klickr.io Home Page](https://raw.github.com/klickr/klickr/master/app/images/klickrio-home-page.png)
 
 ## Gallery page
@@ -35,7 +43,7 @@ Check us out at [http://klickr.io](http://klickr.io).
 
 **Chrome extension:** Manifest2, Angular
 
-**Web application:** Backend: Node, Express, MongoDB, and Mongoose; Frontend: Angular.js with CSS3 animations
+**Web application:** Backend: Node, Express, MongoDB and Mongoose; Frontend: Angular.js, CSS3
 
 ## <a name="challenges"/> Technical Challenges
 
