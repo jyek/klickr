@@ -21,7 +21,7 @@ are personalized in-site playbacks on another user's browser.
 
 
 # <a name="link"/> Is Klickr.io live?
-Yes we are! Please visit our site at [Klickr.io](https://www.klickr.io)
+Yes we are! Please visit our site at [Klickr.io](http://www.klickr.io)
 
 # <a name="screenshots"/> Screenshots
 ## Home page
