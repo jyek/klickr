@@ -1,32 +1,17 @@
 # Klickr.io
 
+Following the age-old mantra of "a picture speaks a thousand words," Klickr.io makes it easy to create shareable tutorial-style snippets of web content and share them with others. We want people to learn without having to pour through lists of instructions. These snippets are not videos - they play back natively on your Chrome browser.
+
+Klickr is currently in Beta. It has bugs and lacks important features. That said, even with its current flaws, we believe it brings enough value to make it useful, fun, and share-worthy.
+
+Check us out at [http://klickr.io](http://klickr.io).
+
 ## Table of Contents  
-[What is Klickr.io?](#klickrio)  
-[Is Klickr.io live?](#link)  
 [Team](#team)  
 [Screenshots](#screenshots)  
 [Tech Stack](#techstack)  
 [Technical Challenges](#challenges)  
 [Roadmap for Codebase](#roadmap)  
-
-## <a name="klickrio"/> What is Klickr.io?
-By following the age-old mantra of "a picture speaks a thousand words," Klickr.io 
-allows users to create short tutorial-style snippets of web content (or "Klickrs")
-that they can share with their friends and family. An example of where Klickr.io 
-fits in is if you've ever tried teaching someone how to complete a task online.
-The problem Klickr.io is trying to solve centers on the difficulty that exists when
-trying to verbally explain even the simplest online tasks. Instead, Klickr.io believes
-that allowing people to "show" what they mean will make the web an easier place to navigate.
-
-Klickr.io offers an effortless way to record your explanation and share that snippet with
-your friend so that they can replay it on any Chrome browser. Instead of a video, our Klickr's
-are personalized in-site playbacks on another user's browser.
-
-## <a name="link"/> Is Klickr.io live?
-
-Klickr is currently in Beta. It was developed over two weeks and is buy. That said, even with its current flaws, we believe it brings enough value to make it useful, fun, and share-worthy.
-
-Please visit our site at [Klickr.io](http://www.klickr.io)
 
 ## <a name="team"/> Team
 
