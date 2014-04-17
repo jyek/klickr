@@ -31,7 +31,7 @@ Please visit our site at [Klickr.io](http://www.klickr.io)
 ## <a name="team"/> Team
 
 * [Willson Mock](https://medium.com/@fay_jai): Project manager, Chrome extension annotating capability and web architecture
-* [Justin Yek](http://www.penguinhustle.com/blog): Overall Chrome extension and web architecture, code integration, site design, deployment, video editing and Chrome extension recording capability
+* [Justin Yek](http://www.penguinhustle.com/blog): Overall Chrome extension and web architecture, code integration, site design, deployment, Chrome extension recording capability and video editing
 * [Luke Ramsey](https://github.com/lramsey): Chrome extension playback capability and web architecture
 * [Stephan Dacosta](https://github.com/stephandacosta): Chrome extension user interface and code refactoring
 
@@ -47,9 +47,10 @@ Please visit our site at [Klickr.io](http://www.klickr.io)
 (Wait till after refactor)
 
 ## <a name="techstack"/> Tech Stack
-Klickr.io uses a MEAN stack for its front- and back-end. In addition, the chrome browser
-plugin is another front-end component built in Angular and it represents the primary
-mechanism in which users will interact with the product.
+
+**Chrome extension:** Manifest2, Angular
+
+**Web application:** Backend: Node, Express, MongoDB, and Mongoose; Frontend: Angular.js with CSS3 animations
 
 ## <a name="challenges"/> Technical Challenges
 
@@ -77,7 +78,6 @@ we could scale the dimensions of the playback for any viewer.
 [INSERT CHALLENGE FOR RECORDING]
 
 [INSERT CHALLENGE FOR PLAYER]
-
 
 ## <a name="roadmap"/> Codebase Roadmap
 Our codebase has two separate components: one representing the front- and back-end interface
