@@ -25,7 +25,8 @@ Yes we are! Please visit our site at [Klickr.io](http://www.klickr.io)
 
 # <a name="screenshots"/> Screenshots
 ## Home page
-- screenshot of homepage
+![Klickr.io Home Page](http://www.klickr.io/images/klickrio-home-page.png)
+Format: ![Alt Text](url)
 
 ## Gallery page
 - gallery page
