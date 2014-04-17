@@ -3,7 +3,7 @@
 ## Contents  
 [What is Klickr.io?](#about)  
 [Is Klickr.io live?](#live)  
-[Team](#team)  
+[Meet the Team](#team)  
 [Screenshots](#screenshots)  
 [Tech Stack](#techstack)  
 [Technical Challenges](#challenges)  
@@ -21,12 +21,12 @@ In short, yes. Visit us at [http://klickr.io](http://klickr.io).
 
 Note that Klickr is in Beta. It has bugs and lacks important features. That said, even with its current flaws, we believe it brings enough value to make it useful, fun and share-worthy. We also want you to try it and let us know what you think.
 
-## <a name="team"/> Team
+## <a name="team"/> Meet the Team
 
 * [Willson Mock](https://medium.com/@fay_jai): Project manager, chrome extension annotation and multi-page capability, web architecture, server-side integration, database design, and code refactoring
 * [Justin Yek](http://www.penguinhustle.com/blog): Overall chrome extension and web architecture, code integration, site design, deployment, chrome extension recording capability and video editing
 * [Luke Ramsey](https://github.com/lramsey): Chrome extension playback and multi-page capability, web architecture, database design, code integration and refactoring
-* [Stephan Dacosta](https://github.com/stephandacosta): Chrome extension user interface and code refactoring
+* [Stephan Dacosta](https://github.com/stephandacosta): Chrome extension user interface and sharing functionality, and code refactoring
 
 ## <a name="screenshots"/> Screenshots
 
