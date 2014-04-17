@@ -47,30 +47,13 @@ Note that Klickr is in Beta. It has bugs and lacks important features. That said
 
 ## <a name="challenges"/> Technical Challenges
 
-One of the initial hurdles was learning the Chrome Extension API to build a browser plugin.
-Outside of simply being a new technology we haven't dealt with previously, the Chrome API
-is unique in that it provides a completely different execution context for our JavaScript code.
-This is an advantage because we know that scripts that run on the DOM for any website will not
-be able to interact with our plugin's code. However, the challenging aspect is that we still
-needed a mechanism for our plugin's code to communicate with the DOM, and the mechanism
-provided is message passing between the contexts. 
+* **Architecture:** Engineering Klickr required access beyond the browser DOM. We considered desktop apps, browser plugins, bookmarklets and node apps before choosing a Chrome extension.
 
-A related challenge was when our team tackled solving multi-page recording. The reason this proved
-challenging was because our approach to solving multi-page was to "stitch" together several
-single page Klickr's. However, with every page click, a new DOM environment was created which
-meant that any recorded information up until the new page would be lost unless we sent it
-to our Chrome extension. Coupled with sending information to the Chrome extension was the
-difficulty in accurately detecting when the new page has fully loaded before beginning a new 
-page's recording.
+* **Chrome Extension:** We had to work extensively in a new technology, the Chrome extension framework, which involved asyncronous messaging between webpage and application level code. We applied our knowledge from other MVC frameworks and organized our chrome extension in a component-based, Backbone inspired manner. 
 
-Outside of challenges related to message passing, we also had to deal with the reality that
-a user's Klickr is specific to the dimensions of their monitor. Therefore, for someone
-viewing another person's Klickr, we had to capture information about screen sizes so that
-we could scale the dimensions of the playback for any viewer.
+* **Recording and Playback Architecture:** As there were no existing solutions we could work on, we designed and implemented a proprietary recording, annotation and playback framework without any dependencies to suit our needs of recording and playing back natively on the browser.
 
-[INSERT CHALLENGE FOR RECORDING]
-
-[INSERT CHALLENGE FOR PLAYER]
+* **Playback:** Webpages are not designed for native playbacks. We implemented several workarounds to enable compatability with different screen sizes, annotations, trigger clicks, keypresses, scrolling and multipage playback in the browser by injecting Javascript into the page DOM.
 
 ## <a name="roadmap"/> Codebase Roadmap
 Our codebase has two separate components: one representing the front- and back-end interface
