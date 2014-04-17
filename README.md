@@ -1,16 +1,10 @@
 # Table of Contents  
 [What is Klickr.io?](#klickrio)  
 [Is Klickr.io live?](#link)  
-[Lists](#lists)  
-[Links](#links)  
-[Images](#images)  
-[Code and Syntax Highlighting](#code)  
-[Tables](#tables)  
-[Blockquotes](#blockquotes)  
-[Inline HTML](#html)  
-[Horizontal Rule](#hr)  
-[Line Breaks](#lines)  
-[Youtube videos](#videos)  
+[Screenshots](#screenshots)  
+[Description of Tech Stack](#techstack)  
+[Technical Challenges](#challenges)  
+[Roadmap for Codebase](#roadmap)   
 
 # <a name="klickrio"/> What is Klickr.io?
 By following the age-old mantra of "a picture speaks a thousand words," Klickr.io 
@@ -29,18 +23,18 @@ are personalized in-site playbacks on another user's browser.
 # <a name="link"/> Is Klickr.io live?
 Yes we are! Please visit our site at http://www.klickr.io
 
-Screenshots
+# <a name="screenshots"/> Screenshots
 - screenshot of homepage
 - gallery page
 - download page
 (Wait till after refactor)
 
-Tech Stack
+# <a name="techstack"/> Description of Tech Stack
 Klickr.io uses a MEAN stack for its front- and back-end. In addition, the chrome browser
 plugin is another front-end component built in Angular and it represents the primary
 mechanism in which users will interact with the product.
 
-Technical Challenges
+# <a name="challenges"/> Technical Challenges
 One of the initial hurdles was learning the Chrome Extension API to build a browser plugin.
 Outside of simply being a new technology we haven't dealt with previously, the Chrome API
 is unique in that it provides a completely different execution context for our JavaScript code.
@@ -67,11 +61,11 @@ we could scale the dimensions of the playback for any viewer.
 [INSERT CHALLENGE FOR PLAYER]
 
 
-Codebase Roadmap
+# <a name="roadmap"/> Codebase Roadmap
 Our codebase has two separate components: one representing the front- and back-end interface
 for running our web application and another for the chrome browser plugin.
 
-- Web Application
+## Web Application
 Key files for backend:
 1) server.js and server-config.js
 2) server/models/klicks.js
@@ -95,7 +89,7 @@ We added functionality to filter by Klickr description and included the initial 
 of building "hype" around each Klickr, in addition to being able to  see basic statistics 
 such as the duration and total number of views for each Klickr.
 
-- Chrome Extension
+## Chrome Extension
 Key files:
 1) manifest.json
 2) popups/popup.html and popups/app.js
