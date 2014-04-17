@@ -110,22 +110,9 @@ Key files:
     * player.js
     * recorder.js
 
-**manifest.json** Configuration file for our chrome browser plugin. There are two main sections within the manifest.json that have significant ramifications
-for how we developed our application: 1) background, and 2) content_scripts.
-The scripts within the background section describe the JavaScript files that consist of
-the background process that stays persistent while the chrome browser is open. Therefore,
-these files are particular useful for holding data that needs to be kept around
-across multiple DOM sessions (such as multi-page recordings). The content script section
-describes the JavaScript files that will be injected into each DOM page whenever a user
-loads a new one. Of particular note is that the files within these two sections do not
-have direct communication with each other because they exist in different JavaScript
-execution contexts. This is where the PubSub paradigm is prevalent and message passing 
-occurs between the two sets of files.
+The manifest.json file is the configuration file for our chrome browser plugin. There are two main sections within the manifest.json that have significant ramifications for how we developed our application: 1) background, and 2) content_scripts. The scripts within the background section describe the JavaScript files that consist of the background process that stays persistent while the chrome browser is open. Therefore, these files are particular useful for holding data that needs to be kept around across multiple DOM sessions (such as multi-page recordings). The content script section describes the JavaScript files that will be injected into each DOM page whenever a user loads a new one. Of particular note is that the files within these two sections do not have direct communication with each other because they exist in different JavaScript execution contexts. This is where the PubSub paradigm is prevalent and message passing occurs between the two sets of files.
 
-The popup.html file represents the primary front end interface for our end users. This is
-where all our buttons exist - play, stop, replay, pause, annotate, delete, and save.
-This file combined with the app.js file represent the entire Angular frontend. The 
-functions defined within the PopupCtrl control when the buttons should appear for users 
+The popup.html file represents the primary front end interface for our end users. This is where all our buttons exist - play, stop, replay, pause, annotate, delete, and save. This file combined with the app.js file represent the entire Angular frontend. The functions defined within the PopupCtrl control when the buttons should appear for users 
 based on the status of the different parts of our application.
 
 [INSERT INFO FOR MESSAGE.JS]
