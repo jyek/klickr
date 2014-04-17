@@ -129,7 +129,7 @@ This file combined with the app.js file represent the entire Angular frontend. T
 functions defined within the PopupCtrl control when the buttons should appear for users 
 based on the status of the different parts of our application.
 
-[INSERT INFO FOR MESSAGE.JS]
+[INSERT INFO FOR RECORDER.JS]
 
 [INSERT INFO FOR PLAYER.JS]
 
@@ -139,9 +139,9 @@ from the screen when appropriate.
 
 [INSERT INFO FOR BACKGROUND.JS]
 
-[INSERT INFO FOR BACKGROUND.JS]
+[INSERT INFO FOR BG-RECORDER.JS]
 
-[INSERT INFO FOR BACKGROUND.JS]
+[INSERT INFO FOR BG-PLAYER.JS]
 
 The bg-editor.js file represents our Editor class. You can think of an editor instance 
 as the controller between a particular player and recorder instance. It dictates when
