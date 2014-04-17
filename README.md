@@ -1,12 +1,15 @@
-# Table of Contents  
-[What is Klickr.io?](#klickrio)  
-[Is Klickr.io live?](#link)  
-[Screenshots](#screenshots)  
-[Description of Tech Stack](#techstack)  
-[Technical Challenges](#challenges)  
-[Roadmap for Codebase](#roadmap)   
+# Klickr.io
 
-# <a name="klickrio"/> What is Klickr.io?
+## Table of Contents  
+[What is Klickr.io?](#klickrio)
+[Is Klickr.io live?](#link)
+[Team](#team)
+[Screenshots](#screenshots)
+[Tech Stack](#techstack)
+[Technical Challenges](#challenges)
+[Roadmap for Codebase](#roadmap)
+
+## <a name="klickrio"/> What is Klickr.io?
 By following the age-old mantra of "a picture speaks a thousand words," Klickr.io 
 allows users to create short tutorial-style snippets of web content (or "Klickrs")
 that they can share with their friends and family. An example of where Klickr.io 
@@ -19,11 +22,16 @@ Klickr.io offers an effortless way to record your explanation and share that sni
 your friend so that they can replay it on any Chrome browser. Instead of a video, our Klickr's
 are personalized in-site playbacks on another user's browser.
 
-
-# <a name="link"/> Is Klickr.io live?
+## <a name="link"/> Is Klickr.io live?
 Yes we are! Please visit our site at [Klickr.io](http://www.klickr.io)
 
-# <a name="screenshots"/> Screenshots
+## <a name="team"/> Team
+* [Willson Mock](https://medium.com/@fay_jai)
+* [Justin Yek](http://www.penguinhustle.com/blog)
+* [Luke Ramsey](https://github.com/lramsey)
+* [Stephan Dacosta](https://github.com/stephandacosta)
+
+## <a name="screenshots"/> Screenshots
 ## Home page
 ![Klickr.io Home Page](https://raw.github.com/klickr/klickr/master/app/images/klickrio-home-page.png)
 
@@ -34,12 +42,13 @@ Yes we are! Please visit our site at [Klickr.io](http://www.klickr.io)
 - download page
 (Wait till after refactor)
 
-# <a name="techstack"/> Description of Tech Stack
+# <a name="techstack"/> Tech Stack
 Klickr.io uses a MEAN stack for its front- and back-end. In addition, the chrome browser
 plugin is another front-end component built in Angular and it represents the primary
 mechanism in which users will interact with the product.
 
 # <a name="challenges"/> Technical Challenges
+
 One of the initial hurdles was learning the Chrome Extension API to build a browser plugin.
 Outside of simply being a new technology we haven't dealt with previously, the Chrome API
 is unique in that it provides a completely different execution context for our JavaScript code.
