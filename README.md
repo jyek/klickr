@@ -41,7 +41,7 @@ Note that Klickr is in Beta. It has bugs and lacks important features. That said
 
 ## <a name="techstack"/> Tech Stack
 
-Klickr is comprised of a Chrome extension and a web application.
+Klickr is comprised of a Chrome extension and a web application. The tech stack we used is as follows:
 
 **Chrome extension:** Manifest 2, Angular
 
