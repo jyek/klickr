@@ -1,12 +1,15 @@
-# Table of Contents  
+# Klickr.io
+
+## Table of Contents  
 [What is Klickr.io?](#klickrio)  
 [Is Klickr.io live?](#link)  
+[Team](#team)  
 [Screenshots](#screenshots)  
-[Description of Tech Stack](#techstack)  
+[Tech Stack](#techstack)  
 [Technical Challenges](#challenges)  
-[Roadmap for Codebase](#roadmap)   
+[Roadmap for Codebase](#roadmap)  
 
-# <a name="klickrio"/> What is Klickr.io?
+## <a name="klickrio"/> What is Klickr.io?
 By following the age-old mantra of "a picture speaks a thousand words," Klickr.io 
 allows users to create short tutorial-style snippets of web content (or "Klickrs")
 that they can share with their friends and family. An example of where Klickr.io 
@@ -19,11 +22,16 @@ Klickr.io offers an effortless way to record your explanation and share that sni
 your friend so that they can replay it on any Chrome browser. Instead of a video, our Klickr's
 are personalized in-site playbacks on another user's browser.
 
-
-# <a name="link"/> Is Klickr.io live?
+## <a name="link"/> Is Klickr.io live?
 Yes we are! Please visit our site at [Klickr.io](http://www.klickr.io)
 
-# <a name="screenshots"/> Screenshots
+## <a name="team"/> Team
+* [Willson Mock](https://medium.com/@fay_jai): Project manager, backend architect, annotation feature in Chrome extension
+* [Justin Yek](http://www.penguinhustle.com/blog): Chrome extension and web architecture, overall integration, site design and deployment
+* [Luke Ramsey](https://github.com/lramsey):Browser playback capability in Chrome extension and backend architect
+* [Stephan Dacosta](https://github.com/stephandacosta): Chrome extension user interface and code refactoring
+
+## <a name="screenshots"/> Screenshots
 ## Home page
 ![Klickr.io Home Page](https://raw.github.com/klickr/klickr/master/app/images/klickrio-home-page.png)
 
@@ -34,12 +42,13 @@ Yes we are! Please visit our site at [Klickr.io](http://www.klickr.io)
 - download page
 (Wait till after refactor)
 
-# <a name="techstack"/> Description of Tech Stack
+## <a name="techstack"/> Tech Stack
 Klickr.io uses a MEAN stack for its front- and back-end. In addition, the chrome browser
 plugin is another front-end component built in Angular and it represents the primary
 mechanism in which users will interact with the product.
 
-# <a name="challenges"/> Technical Challenges
+## <a name="challenges"/> Technical Challenges
+
 One of the initial hurdles was learning the Chrome Extension API to build a browser plugin.
 Outside of simply being a new technology we haven't dealt with previously, the Chrome API
 is unique in that it provides a completely different execution context for our JavaScript code.
@@ -66,11 +75,11 @@ we could scale the dimensions of the playback for any viewer.
 [INSERT CHALLENGE FOR PLAYER]
 
 
-# <a name="roadmap"/> Codebase Roadmap
+## <a name="roadmap"/> Codebase Roadmap
 Our codebase has two separate components: one representing the front- and back-end interface
 for running our web application and another for the chrome browser plugin.
 
-## Web Application
+### Web Application
 Key files for backend:
 
   1. server.js and server-config.js
@@ -95,7 +104,7 @@ We added functionality to filter by Klickr description and included the initial 
 of building "hype" around each Klickr, in addition to being able to  see basic statistics 
 such as the duration and total number of views for each Klickr.
 
-## Chrome Extension
+### Chrome Extension
 Key files:
 
   1. manifest.json
@@ -110,23 +119,9 @@ Key files:
     * player.js
     * recorder.js
 
-The manifest.json file represents the configuration file for our chrome browser pluging.
-There are two main sections within the manifest.json that have significant ramifications
-for how we developed our application: 1) background, and 2) content_scripts.
-The scripts within the background section describe the JavaScript files that consist of
-the background process that stays persistent while the chrome browser is open. Therefore,
-these files are particular useful for holding data that needs to be kept around
-across multiple DOM sessions (such as multi-page recordings). The content script section
-describes the JavaScript files that will be injected into each DOM page whenever a user
-loads a new one. Of particular note is that the files within these two sections do not
-have direct communication with each other because they exist in different JavaScript
-execution contexts. This is where the PubSub paradigm is prevalent and message passing 
-occurs between the two sets of files.
+The manifest.json file is the configuration file for our chrome browser plugin. There are two main sections within the manifest.json that have significant ramifications for how we developed our application: 1) background, and 2) content_scripts. The scripts within the background section describe the JavaScript files that consist of the background process that stays persistent while the chrome browser is open. Therefore, these files are particular useful for holding data that needs to be kept around across multiple DOM sessions (such as multi-page recordings). The content script section describes the JavaScript files that will be injected into each DOM page whenever a user loads a new one. Of particular note is that the files within these two sections do not have direct communication with each other because they exist in different JavaScript execution contexts. This is where the PubSub paradigm is prevalent and message passing occurs between the two sets of files.
 
-The popup.html file represents the primary front end interface for our end users. This is
-where all our buttons exist - play, stop, replay, pause, annotate, delete, and save.
-This file combined with the app.js file represent the entire Angular frontend. The 
-functions defined within the PopupCtrl control when the buttons should appear for users 
+The popup.html file represents the primary front end interface for our end users. This is where all our buttons exist - play, stop, replay, pause, annotate, delete, and save. This file combined with the app.js file represent the entire Angular frontend. The functions defined within the PopupCtrl control when the buttons should appear for users 
 based on the status of the different parts of our application.
 
 [INSERT INFO FOR RECORDER.JS]
