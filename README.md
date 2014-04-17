@@ -30,8 +30,8 @@ Please visit our site at [Klickr.io](http://www.klickr.io)
 
 ## <a name="team"/> Team
 
-* [Willson Mock](https://medium.com/@fay_jai): Project manager, Chrome extension annotating capability and web architecture
-* [Justin Yek](http://www.penguinhustle.com/blog): Overall Chrome extension and web architecture, code integration, site design, deployment, Chrome extension recording capability and video editing
+* [Willson Mock](https://medium.com/@fay_jai): Project manager, chrome extension annotating capability and web architecture
+* [Justin Yek](http://www.penguinhustle.com/blog): Overall chrome extension and web architecture, code integration, site design, deployment, chrome extension recording capability and video editing
 * [Luke Ramsey](https://github.com/lramsey): Chrome extension playback capability and web architecture
 * [Stephan Dacosta](https://github.com/stephandacosta): Chrome extension user interface and code refactoring
 
