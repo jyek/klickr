@@ -19,7 +19,7 @@ Using our Chrome extension, you can record and annotate a web snippet, or Klick,
 
 In short, yes. Visit us at [http://klickr.io](http://klickr.io).
 
-Note that Klickr is in Beta. It has bugs and lacks important features. That said, even with its current flaws, we believe it brings enough value to make it useful, fun and share-worthy. We'd also want you to try it and let us know what you think.
+Note that Klickr is in Beta. It has bugs and lacks important features. That said, even with its current flaws, we believe it brings enough value to make it useful, fun and share-worthy. We also want you to try it and let us know what you think.
 
 ## <a name="team"/> Team
 
