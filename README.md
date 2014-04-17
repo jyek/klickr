@@ -26,10 +26,10 @@ are personalized in-site playbacks on another user's browser.
 Yes we are! Please visit our site at [Klickr.io](http://www.klickr.io)
 
 ## <a name="team"/> Team
-* [Willson Mock](https://medium.com/@fay_jai)
-* [Justin Yek](http://www.penguinhustle.com/blog)
-* [Luke Ramsey](https://github.com/lramsey)
-* [Stephan Dacosta](https://github.com/stephandacosta)
+* [Willson Mock](https://medium.com/@fay_jai): Project manager, backend architect, annotation feature in Chrome extension
+* [Justin Yek](http://www.penguinhustle.com/blog): Chrome extension and web architecture, overall integration, site design and deployment
+* [Luke Ramsey](https://github.com/lramsey):Browser playback capability in Chrome extension and backend architect
+* [Stephan Dacosta](https://github.com/stephandacosta): Chrome extension user interface and code refactoring
 
 ## <a name="screenshots"/> Screenshots
 ## Home page
