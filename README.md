@@ -21,11 +21,16 @@ are personalized in-site playbacks on another user's browser.
 
 
 # <a name="link"/> Is Klickr.io live?
-Yes we are! Please visit our site at http://www.klickr.io
+Yes we are! Please visit our site at [Klickr.io](https://www.klickr.io)
 
 # <a name="screenshots"/> Screenshots
+## Home page
 - screenshot of homepage
+
+## Gallery page
 - gallery page
+
+## Download page
 - download page
 (Wait till after refactor)
 
@@ -67,9 +72,9 @@ for running our web application and another for the chrome browser plugin.
 
 ## Web Application
 Key files for backend:
-1) server.js and server-config.js
-2) server/models/klicks.js
-3) lib/request-handler.js
+1. server.js and server-config.js
+2. server/models/klicks.js
+3. lib/request-handler.js
 
 We used Yeoman to scaffold our front- and back-end web application so it should follow a
 familiar layout. Starting with the backend experience, the server.js and server-config.js
