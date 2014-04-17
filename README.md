@@ -23,16 +23,16 @@ Note that Klickr is in Beta. It has bugs and lacks important features. That said
 
 ## <a name="team"/> Meet the Team
 
-* [Willson Mock](https://medium.com/@fay_jai)
+###[Willson Mock](https://medium.com/@fay_jai)
 ![Willson Image](https://raw.github.com/klickr/klickr/master/app/images/willson.jpg)
 
-* [Justin Yek](http://www.penguinhustle.com/blog)
+###[Justin Yek](http://www.penguinhustle.com/blog)
 ![Justin Image](https://raw.github.com/klickr/klickr/master/app/images/justin.jpg)
 
-* [Luke Ramsey](https://github.com/lramsey)
+###[Luke Ramsey](https://github.com/lramsey)
 ![Klickr.io Home Page](https://raw.github.com/klickr/klickr/master/app/images/luke.jpg)
 
-* [Stephan Dacosta](https://github.com/stephandacosta)
+###[Stephan Dacosta](https://github.com/stephandacosta)
 ![Klickr.io Home Page](https://raw.github.com/klickr/klickr/master/app/images/stephan.jpg)
 
 ## <a name="screenshots"/> Screenshots
