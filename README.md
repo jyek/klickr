@@ -23,12 +23,16 @@ your friend so that they can replay it on any Chrome browser. Instead of a video
 are personalized in-site playbacks on another user's browser.
 
 ## <a name="link"/> Is Klickr.io live?
-Yes we are! Please visit our site at [Klickr.io](http://www.klickr.io)
+
+Klickr is currently in Beta. It was developed over two weeks and is buy. That said, even with its current flaws, we believe it brings enough value to make it useful, fun, and share-worthy.
+
+Please visit our site at [Klickr.io](http://www.klickr.io)
 
 ## <a name="team"/> Team
-* [Willson Mock](https://medium.com/@fay_jai): Project manager, backend architect, annotation feature in Chrome extension
-* [Justin Yek](http://www.penguinhustle.com/blog): Chrome extension and web architecture, overall integration, site design and deployment
-* [Luke Ramsey](https://github.com/lramsey):Browser playback capability in Chrome extension and backend architect
+
+* [Willson Mock](https://medium.com/@fay_jai): Project manager, Chrome extension annotating capability and web architecture
+* [Justin Yek](http://www.penguinhustle.com/blog): Overall Chrome extension and web architecture, code integration, site design, deployment, video editing and Chrome extension recording capability
+* [Luke Ramsey](https://github.com/lramsey): Chrome extension playback capability and web architecture
 * [Stephan Dacosta](https://github.com/stephandacosta): Chrome extension user interface and code refactoring
 
 ## <a name="screenshots"/> Screenshots
