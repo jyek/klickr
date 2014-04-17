@@ -1,13 +1,13 @@
 # Klickr.io
 
 ## Table of Contents  
-[What is Klickr.io?](#klickrio)
-[Is Klickr.io live?](#link)
-[Team](#team)
-[Screenshots](#screenshots)
-[Tech Stack](#techstack)
-[Technical Challenges](#challenges)
-[Roadmap for Codebase](#roadmap)
+[What is Klickr.io?](#klickrio)  
+[Is Klickr.io live?](#link)  
+[Team](#team)  
+[Screenshots](#screenshots)  
+[Tech Stack](#techstack)  
+[Technical Challenges](#challenges)  
+[Roadmap for Codebase](#roadmap)  
 
 ## <a name="klickrio"/> What is Klickr.io?
 By following the age-old mantra of "a picture speaks a thousand words," Klickr.io 
