@@ -110,8 +110,7 @@ Key files:
     * player.js
     * recorder.js
 
-The manifest.json file represents the configuration file for our chrome browser pluging.
-There are two main sections within the manifest.json that have significant ramifications
+**manifest.json** Configuration file for our chrome browser plugin. There are two main sections within the manifest.json that have significant ramifications
 for how we developed our application: 1) background, and 2) content_scripts.
 The scripts within the background section describe the JavaScript files that consist of
 the background process that stays persistent while the chrome browser is open. Therefore,
