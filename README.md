@@ -119,10 +119,19 @@ based on the status of the different parts of our application.
 INSERT INFO FOR BACKGROUND.JS]
 
 #### Bg-recorder.js
-INSERT INFO FOR BG-RECORDER.JS]
+The bg-recorder.js file represents our Background Recorder class. The primary purpose of a
+bg-recorder instance is to aggregate all of the movement data captured from a recorder instance
+and package this information into a Klickr object. The Klickr object is fed to a player
+instance in order to enable playback. The mechanism in which a bg-recorder instance is able
+to aggregate the movement data is through listeners set up to listen for messages from
+a recorder instance.
 
 #### Bg-player.js
-[INSERT INFO FOR BG-PLAYER.JS]
+The bg-player.js file represents our Background Player class. The primary purpose of a
+bg-player instance is to control the timing in which a player instance will play the
+movement data aggregated by the bg-recorder instance. The bg-player instance acts as a 
+coordinator with the player instance and has listeners set up to listen for messages from
+
 
 #### Bg-editor.js
 The bg-editor.js file represents our Editor class. You can think of an editor instance 
@@ -131,12 +140,18 @@ a player instance can pause and resume playback, and when a user can add annotat
 to a Klickr recording.
 
 #### Recorder.js
-The recorder.js file represents our Recorder class. 
+The recorder.js file represents our Recorder class. The primary purpose of a recorder
+instance is to capture movements on screen and then log each of those movements to a
+bg-recorder instance. This mechanism is necessary because the bg-recorder instance
+is able to hold onto all of the movement data even during a multi-page recording.
 
 #### Player.js
-[INSERT INFO FOR PLAYER.JS]
+The player.js file represents our Player class. The primary purpose of a player instance
+is to play all of the movement data captured from a recorder instance (and stored in a
+bg-recorder instance). As part of the playback functionality, a player instance also
+ensures that playback will scale to the user's screen dimensions.
 
 #### Message.js
 The message.js file represents our Message class.  You can think of a message instance as 
-any of annotations that appear on screen. Each message object has the ability to fade out
+any of annotations that appear on screen. Each message instance has the ability to fade out
 from the screen when appropriate.
