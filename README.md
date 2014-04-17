@@ -42,12 +42,12 @@ Yes we are! Please visit our site at [Klickr.io](http://www.klickr.io)
 - download page
 (Wait till after refactor)
 
-# <a name="techstack"/> Tech Stack
+## <a name="techstack"/> Tech Stack
 Klickr.io uses a MEAN stack for its front- and back-end. In addition, the chrome browser
 plugin is another front-end component built in Angular and it represents the primary
 mechanism in which users will interact with the product.
 
-# <a name="challenges"/> Technical Challenges
+## <a name="challenges"/> Technical Challenges
 
 One of the initial hurdles was learning the Chrome Extension API to build a browser plugin.
 Outside of simply being a new technology we haven't dealt with previously, the Chrome API
@@ -75,11 +75,11 @@ we could scale the dimensions of the playback for any viewer.
 [INSERT CHALLENGE FOR PLAYER]
 
 
-# <a name="roadmap"/> Codebase Roadmap
+## <a name="roadmap"/> Codebase Roadmap
 Our codebase has two separate components: one representing the front- and back-end interface
 for running our web application and another for the chrome browser plugin.
 
-## Web Application
+### Web Application
 Key files for backend:
 
   1. server.js and server-config.js
@@ -104,7 +104,7 @@ We added functionality to filter by Klickr description and included the initial 
 of building "hype" around each Klickr, in addition to being able to  see basic statistics 
 such as the duration and total number of views for each Klickr.
 
-## Chrome Extension
+### Chrome Extension
 Key files:
 
   1. manifest.json
