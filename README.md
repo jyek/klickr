@@ -1,21 +1,21 @@
 # Klickr.io
 
-## Table of Contents  
-[What is Klickr.io?](#about)  
-[Is Klickr.io live?](#live)  
+## Contents  
+[About](#about)  
+[Are We Live?](#live)  
 [Team](#team)  
 [Screenshots](#screenshots)  
 [Tech Stack](#techstack)  
 [Technical Challenges](#challenges)  
 [Roadmap for Codebase](#roadmap)  
 
-## <a name="about"/> What is Klickr.io?
+## <a name="about"/> About
 
 Following the age-old mantra of "a picture speaks a thousand words," Klickr.io makes it super easy to create shareable tutorial-style snippets of web content and share them with others. In doing so, we aim to address the problem of how difficult it to put together instructions to teach someone how to do even the simplest of tasks.
 
 Using our Chrome extension, you can record and annotate a web snippet, or Klick, on your browser which you can share with others. These snippets are not videos - they play back natively on the Chrome browser.
 
-## <a name="live"/> Is Klickr.io Live?
+## <a name="live"/> Are We Live?
 
 In short, yes. Visit us at [http://klickr.io](http://klickr.io).
 
