@@ -74,7 +74,6 @@ for running our web application and another for the chrome browser plugin.
 Key files for backend:
 1. server.js and server-config.js
 2. server/models/klicks.js
-3. lib/request-handler.js
 
 We used Yeoman to scaffold our front- and back-end web application so it should follow a
 familiar layout. Starting with the backend experience, the server.js and server-config.js
@@ -84,8 +83,8 @@ The CRUD aspect of our application logic can be found in the route-handlers with
 lib/request-handler.js. 
 
 Key files for frontend:
-1) landing.html and gallery.html
-2) scripts/
+1. landing.html and gallery.html
+2. scripts/
 
 The frontend component consists of Angular. Our landing view consists of some added 
 features where we add custom directives for handling how certain elements scroll into 
@@ -96,17 +95,17 @@ such as the duration and total number of views for each Klickr.
 
 ## Chrome Extension
 Key files:
-1) manifest.json
-2) popups/popup.html and popups/app.js
-3) bg/
-    a) background.js
-    b) bg-editor.js
-    c) bg-player.js
-    d) bg-recorder.js
-4) content-scripts/
-    a) message.js
-    b) player.js
-    c) recorder.js
+1. manifest.json
+2. popups/popup.html and popups/app.js
+3. bg/
+  * background.js
+  * bg-editor.js
+  * bg-player.js
+  * bg-recorder.js
+4. content-scripts/
+  * message.js
+  * player.js
+  * recorder.js
 
 The manifest.json file represents the configuration file for our chrome browser pluging.
 There are two main sections within the manifest.json that have significant ramifications
