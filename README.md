@@ -23,9 +23,9 @@ Note that Klickr is in Beta. It has bugs and lacks important features. That said
 
 ## <a name="team"/> Team
 
-* [Willson Mock](https://medium.com/@fay_jai): Project manager, chrome extension annotating capability and web architecture
+* [Willson Mock](https://medium.com/@fay_jai): Project manager, chrome extension annotation and multi-page capability, web architecture, server-side integration, database design, and code refactoring
 * [Justin Yek](http://www.penguinhustle.com/blog): Overall chrome extension and web architecture, code integration, site design, deployment, chrome extension recording capability and video editing
-* [Luke Ramsey](https://github.com/lramsey): Chrome extension playback capability and web architecture
+* [Luke Ramsey](https://github.com/lramsey): Chrome extension playback and multi-page capability, web architecture, database design, code integration and refactoring
 * [Stephan Dacosta](https://github.com/stephandacosta): Chrome extension user interface and code refactoring
 
 ## <a name="screenshots"/> Screenshots
