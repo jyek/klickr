@@ -128,7 +128,7 @@ The manifest.json file is the configuration file for our chrome browser plugin. 
 The popup.html file represents the primary front end interface for our end users. This is where all our buttons exist - play, stop, replay, pause, annotate, delete, and save. This file combined with the app.js file represent the entire Angular frontend. The functions defined within the PopupCtrl control when the buttons should appear for users 
 based on the status of the different parts of our application.
 
-[INSERT INFO FOR MESSAGE.JS]
+[INSERT INFO FOR RECORDER.JS]
 
 [INSERT INFO FOR PLAYER.JS]
 
@@ -138,9 +138,9 @@ from the screen when appropriate.
 
 [INSERT INFO FOR BACKGROUND.JS]
 
-[INSERT INFO FOR BACKGROUND.JS]
+[INSERT INFO FOR BG-RECORDER.JS]
 
-[INSERT INFO FOR BACKGROUND.JS]
+[INSERT INFO FOR BG-PLAYER.JS]
 
 The bg-editor.js file represents our Editor class. You can think of an editor instance 
 as the controller between a particular player and recorder instance. It dictates when
