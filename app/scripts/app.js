@@ -10,6 +10,10 @@ angular.module('klickrApp', ['ngRoute'])
     .when('/', {
       templateUrl: 'views/landing.html'
     })
+    .when('/demo', {
+      templateUrl: 'views/demo.html',
+      controller: 'DemoCtrl'
+    })
     .when('/gallery', {
       templateUrl: 'views/gallery.html',
       controller: 'GalleryCtrl'
