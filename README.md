@@ -23,28 +23,25 @@ Note that Klickr is in Beta. It has bugs and lacks important features. That said
 
 ## <a name="team"/> Meet the Team
 
-###[Willson Mock](https://medium.com/@fay_jai)
+###[Willson Mock](http://www.willson.io)
 ![Willson Image](https://raw.github.com/klickr/klickr/master/app/images/willson.jpg)
 
-###[Justin Yek](http://www.penguinhustle.com/blog)
+###[Justin Yek](http://www.justinyek.com)
 ![Justin Image](https://raw.github.com/klickr/klickr/master/app/images/justin.jpg)
 
-###[Luke Ramsey](https://github.com/lramsey)
+###[Luke Ramsey](http://lukeramsey.io)
 ![Klickr.io Home Page](https://raw.github.com/klickr/klickr/master/app/images/luke.jpg)
 
-###[Stephan Dacosta](https://github.com/stephandacosta)
+###[Stephan Dacosta](https://www.linkedin.com/pub/stephan-da-costa-andrade/8/b12/900)
 ![Klickr.io Home Page](https://raw.github.com/klickr/klickr/master/app/images/stephan.jpg)
 
 ## <a name="screenshots"/> Screenshots
 
+#### Home Page
 ![Klickr.io Home Page](https://raw.github.com/klickr/klickr/master/app/images/klickrio-home-page.png)
 
-#### Gallery page
-- gallery page
-
-#### Download page
-- download page
-(Wait till after refactor)
+#### Gallery Page
+![Klickr.io Gallery Page](https://raw.github.com/klickr/klickr/master/app/images/klickrio-gallery-page.png)
 
 ## <a name="techstack"/> Tech Stack
 
