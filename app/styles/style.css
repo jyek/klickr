@@ -23,6 +23,7 @@ a:hover{text-decoration:none;}
 nav.vertical ul li{	display:block;}/* vertical menu */
 nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
+iframe{max-width:100%;}
 
 @font-face {
     font-family: 'open_sansregular';
@@ -51,14 +52,6 @@ body{
 	background:#FFF;
 	font-size:100%;
 }
-
-/*
-.preload * {
-  -webkit-transition: none !important;
-  -moz-transition: none !important;
-  -ms-transition: none !important;
-  -o-transition: none !important;
-}*/
 
 /* --------------------------------------------------------------------------------- */
 /* Nav
@@ -157,8 +150,6 @@ body{
 
 .da-slider {
   width: 100%;
-  min-width: 520px;
-  height: 441px;
   position: relative;
   margin: 0 auto 30px;
   padding-top: 30px;
@@ -172,8 +163,6 @@ body{
 }
 
 .da-slide {
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
   font-family: 'trump_town_proregular';
@@ -199,7 +188,7 @@ body{
   	letter-spacing: 0.03em;
   }
 
-  .da-slide .da-img {
+  .da-img {
   	float: left;
     text-align: center;
     width: 440px;
@@ -261,15 +250,16 @@ body{
 	float:left;
 }
 
-.blog-grid-left span,.blog-grid2-right span{
+/*.blog-grid-left span,.blog-grid2-right span{
 	width: 339px;
 	height: 270px;
 	display: block;
 	background: url(../images/blog-pic1.png) no-repeat;
 	cursor:pointer;
 }
-
+*/
 .blog-grid-right{
+  padding-top: 15px;
 	float: right;
 }
 
