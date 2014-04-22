@@ -2,15 +2,23 @@
 <div class="header" id="home">
   <div class="container">
     <div class="da-slider">
-      <div class="col-md-6 da-slide">
+<!--       <div class="da-slide"> -->
         <div class="da-title">
           <h3>Make and share<br/>web tutorials</h3>
         </div>
-        <div class="da-img">
-          <iframe src="//player.vimeo.com/video/92565474?title=0&amp;byline=0&amp;portrait=0" width="400" height="300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-          <!-- <img src="/images/slider-pic1.png" alt="Klick" /> -->
+        <div class="da-container">
+          <div class="videoWrapper">
+            <object>
+              <param name="movie" value="//player.vimeo.com/video/92565474?title=0&amp;byline=0&amp;portrait=0">
+              <param name="allowFullScreen" value="true">
+              <param name="allowscriptaccess" value="always">
+             <!--  <embed src="//player.vimeo.com/video/92565474?title=0&amp;byline=0&amp;portrait=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"> -->
+             <iframe src="//player.vimeo.com/video/92565474?title=0&amp;byline=0&amp;portrait=0" class="da-frame" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              <!-- <img src="/images/slider-pic1.png" alt="Klick" /> -->
+            </object>
+          </div>
         </div>
-      </div>
+<!--       </div> -->
     </div>
   </div>
 </div>
