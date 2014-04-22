@@ -202,11 +202,12 @@ body{
   .da-slide .da-img {
   	float: left;
     text-align: center;
-    width: 50%;
+    width: 440px;
     top: 20px;
-    height: 256px;
-    line-height: 320px;
-    left: 110%;
+    height: 340px;
+    border: 20px solid #3A494C;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px #404040;
   }
 
 /* --------------------------------------------------------------------------------- */
