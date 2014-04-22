@@ -18,6 +18,7 @@ app.get('/klicks/:id', handler.getKlick);
 app.get('/klicks', handler.getAllKlicks);
 app.post('/klicks', handler.createKlick);
 app.put('/klicks', handler.updateKlick);
+app.get('/klicks/delete/:id', handler.deleteKlick);
 app.get('/downloads/:file', handler.serveFile);
 app.get('/*', handler.renderIndex);
 
