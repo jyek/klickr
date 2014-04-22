@@ -1091,3 +1091,31 @@ td:first-child, th:first-child {
     -webkit-transform: scaleY(1);
   }
 }
+
+
+@media (max-width: 991px) {
+  .da-slider {
+    min-height: 600px;
+  }
+}
+
+@media (max-width: 650px) {
+  .post-grid {
+    float: none;
+    width: 50%;
+    margin: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  .post-grid:nth-child(3){
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 550px) {
+  h3{
+    font-size:70%;
+  }
+
+}
+
