@@ -664,101 +664,6 @@ input[type="text"] {
 }
 
 /* --------------------------------------------------------------------------------- */
-/* Team
-/* --------------------------------------------------------------------------------- */
-.team{
-  background:url(../images/meet-bg.jpg) no-repeat;
-  padding:4em 0
-}
-.team-head{
-  text-align:center;
-}
-.team-head h3{
-  color: #FFF;
-  font-size: 4.5em;
-  font-family: 'trump_town_proregular';
-  text-transform: uppercase;
-}
-.team-head p{
-  color: #EEE;
-  line-height: 1.5em;
-  width: 50%;
-  margin: 0 auto;
-}
-/*----*/
-.team-members{
-  width: 90%;
-  margin: 6em auto 4em;
-}
-.team-member{
-  width: 28.33%;
-  float: left;
-  text-align: center;
-  background: #FFF;
-  margin-right: 7.5%;
-  padding-bottom:0.8em;
-}
-.team-member:nth-child(3){
-  margin-right:0;
-}
-.team-member span a{
-  width:80px;
-  height:80px;
-  display:inline-block;
-  background:url(../images/people-pic.png) no-repeat;
-}
-.team-member span{
-  background: #E9E9E9;
-  width: 100%;
-  padding: 4em 0px;
-  display: block;
-}
-.team-member label{
-  color: #383838;
-  font-family: trebuchet ms,'open_sansregular';
-  font-size: 1.5em;
-  margin: 0.3em 0 0.5em 0;
-  display: block;
-  font-weight: 900;
-}
-.team-member h4 a{
-  color: #383838;
-  font-size: 2.5em;
-  font-family: 'trump_town_proregular';
-  text-transform: uppercase;
-  margin: 0.5em 0 0 0;
-  display: block;
-}
-.team-member  p{
-  color: #8F8F8F;
-  font-size: 1.1em;
-  line-height:1.5em;
-  width: 87%;
-  margin: 0 auto;
-}
-.team-member ul li{
-  display:inline-block;
-  margin-right: 5px;
-}
-.team-member ul{
-  margin: 1em 0;
-}
-.team-member ul li a{
-  width: 46px;
-  height: 47px;
-  display: block;
-}
-.facebook{
-  background:url(../images/social-icons.png) no-repeat 0px 0px;
-}
-.twitter{
-  background: url(../images/social-icons.png) no-repeat -59px 0px;
-}
-.pin{
-  background: url(../images/social-icons.png) no-repeat -120px 0px;
-}
-
-/* --------------------------------------------------------------------------------- */
 /* Recent Posts
 /* --------------------------------------------------------------------------------- */
 
@@ -788,7 +693,7 @@ input[type="text"] {
 }
 .recent-posts-head h3{
   color: #FFF;
-  font-size: 4.5em;
+  font-size: 3em;
   font-family: 'trump_town_proregular';
   text-transform: uppercase;
 }
@@ -796,6 +701,7 @@ input[type="text"] {
   color: #EEE;
   line-height: 1.5em;
   width: 50%;
+  min-width: 250px;
   margin: 0 auto;
 }
 .post-grid span{
@@ -948,7 +854,6 @@ td:first-child, th:first-child {
   padding: 2em 3.5em 3.5em 3.5em;
   background-color: white;
   max-width: 500px;
-  _width: 500px;
   margin: 0 auto;
   border-radius: 40px;
 }
