@@ -822,7 +822,12 @@ td:first-child, th:first-child {
     width: 100%;
     margin: 20px auto;
   }
-  .navbar-toggle { display: block; padding-top: 0; }
+  .navbar-toggle {
+    display: block;
+    padding-top: 0;
+    padding-right: 0;
+    margin-right: 0;
+  }
   .github-fork-ribbon-wrapper { display: none; }
   .logo a { font-size: 2.5em; }
   .wrap { width: 85%; }
